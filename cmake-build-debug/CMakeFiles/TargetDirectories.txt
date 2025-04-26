@@ -1,0 +1,3 @@
+D:/OKC/projects/codes/C++Projects/ChromeDino/cmake-build-debug/CMakeFiles/ChromeDino.elf.dir
+D:/OKC/projects/codes/C++Projects/ChromeDino/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/OKC/projects/codes/C++Projects/ChromeDino/cmake-build-debug/CMakeFiles/rebuild_cache.dir
