@@ -1,5 +1,15 @@
 Archive member included to satisfy reference by file (symbol)
 
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                              CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj (__aeabi_fmul)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                              CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj (__aeabi_f2d)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                              CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj (__aeabi_dcmplt)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                              CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj (__aeabi_ui2f)
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                              CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj (__aeabi_fdiv)
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
                               CMakeFiles/ChromeDino.elf.dir/Core/Src/syscalls.c.obj (__errno)
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
@@ -35,17 +45,18 @@ Discarded input sections
  .ARM.exidx     0x00000000       0x10 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
  .ARM.attributes
                 0x00000000       0x1b c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .text.HAL_ADC_MspDeInit
+                0x00000000       0x2c CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .text.running  0x00000000       0x14 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .text.pwm_debug
-                0x00000000       0x54 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .bss.count     0x00000000        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .data.is_up    0x00000000        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .text.click    0x00000000       0x12 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -111,8 +122,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .text.SystemCoreClockUpdate
                 0x00000000       0x94 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .rodata.APBPrescTable
-                0x00000000        0x8 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
@@ -138,6 +147,8 @@ Discarded input sections
                 0x00000000       0x2c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .text.HAL_Delay
+                0x00000000       0x28 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000        0xe CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -166,6 +177,88 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_DBGMCU_DisableDBGStandbyMode
                 0x00000000       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_MspInit
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_MspDeInit
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_PollForEvent
+                0x00000000       0x60 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_ConvCpltCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.ADC_DMAConvCplt
+                0x00000000       0x52 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_ConvHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.ADC_DMAHalfConvCplt
+                0x00000000        0xa CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_LevelOutOfWindowCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_IRQHandler
+                0x00000000      0x102 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_ErrorCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.ADC_DMAError
+                0x00000000       0x1a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_AnalogWDGConfig
+                0x00000000       0x60 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_GetState
+                0x00000000        0x4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_GetError
+                0x00000000        0x4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_Start_IT
+                0x00000000       0xf0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_Start_DMA
+                0x00000000      0x130 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_DeInit
+                0x00000000       0xfc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_Stop_IT
+                0x00000000       0x3e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text.HAL_ADC_Stop_DMA
+                0x00000000       0x5e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_Calibration_Start
+                0x00000000      0x100 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedStart
+                0x00000000       0xb8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedStop
+                0x00000000       0x54 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedPollForConversion
+                0x00000000      0x17c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedStart_IT
+                0x00000000       0xc0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedStop_IT
+                0x00000000       0x5e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_MultiModeStart_DMA
+                0x00000000      0x100 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_MultiModeStop_DMA
+                0x00000000       0x84 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedGetValue
+                0x00000000       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_MultiModeGetValue
+                0x00000000       0x20 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedConvCpltCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_InjectedConfigChannel
+                0x00000000      0x228 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .text.HAL_ADCEx_MultiModeConfigChannel
+                0x00000000       0x70 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_info    0x00000000      0xc40 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_abbrev  0x00000000      0x248 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_loc     0x00000000      0x801 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_aranges
+                0x00000000       0x80 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_ranges  0x00000000       0x70 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_line    0x00000000      0xc1c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_str     0x00000000      0x8de CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_frame   0x00000000      0x19c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .ARM.attributes
+                0x00000000       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -363,6 +456,8 @@ Discarded input sections
                 0x00000000      0x100 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_ReadPin
                 0x00000000        0xe CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .text.HAL_GPIO_WritePin
+                0x00000000        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_TogglePin
                 0x00000000       0x12 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
@@ -454,11 +549,7 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_DisableCSS
                 0x00000000        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetHCLKFreq
-                0x00000000        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_GetPCLK1Freq
-                0x00000000       0x20 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_GetPCLK2Freq
                 0x00000000       0x20 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_GetOscConfig
                 0x00000000       0xb4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
@@ -471,28 +562,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .text.HAL_RCCEx_PeriphCLKConfig
-                0x00000000      0x118 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_GetPeriphCLKConfig
                 0x00000000       0x2c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .text.HAL_RCCEx_GetPeriphCLKFreq
-                0x00000000       0xd8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .rodata.aPLLMULFactorTable.1
-                0x00000000       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .rodata.aPredivFactorTable.0
-                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_info    0x00000000      0x449 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00000000      0x1d2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_loc     0x00000000      0x43d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_aranges
-                0x00000000       0x30 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_ranges  0x00000000       0x38 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_line    0x00000000      0x4da CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_str     0x00000000      0x425 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .comment       0x00000000       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_frame   0x00000000       0x5c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .data          0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
@@ -566,6 +637,8 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_ReadCapturedValue
                 0x00000000       0x32 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x00000000        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_DMAPeriodElapsedCplt
                 0x00000000       0x16 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.HAL_TIM_PeriodElapsedHalfCpltCallback
@@ -771,6 +844,20 @@ Discarded input sections
                 0x00000000        0x6 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .text.HAL_TIMEx_GetChannelNState
                 0x00000000       0x2a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .text          0x00000000      0x168 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000000       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
@@ -868,6 +955,7 @@ Linker script and memory map
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -878,6 +966,8 @@ LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
 LOAD CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
@@ -908,336 +998,438 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x0800010c     0x17d8
-                0x0800010c                . = ALIGN (0x4)
+.text           0x08000110     0x2a10
+                0x08000110                . = ALIGN (0x4)
  *(.text)
- .text          0x0800010c       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x08000110       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x08000150      0x378 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x08000150                __aeabi_drsub
+                0x08000158                __aeabi_dsub
+                0x08000158                __subdf3
+                0x0800015c                __aeabi_dadd
+                0x0800015c                __adddf3
+                0x080003d4                __floatunsidf
+                0x080003d4                __aeabi_ui2d
+                0x080003f4                __floatsidf
+                0x080003f4                __aeabi_i2d
+                0x08000418                __aeabi_f2d
+                0x08000418                __extendsfdf2
+                0x0800045c                __floatundidf
+                0x0800045c                __aeabi_ul2d
+                0x0800046c                __floatdidf
+                0x0800046c                __aeabi_l2d
+ .text          0x080004c8      0x110 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x080004c8                __gtdf2
+                0x080004c8                __gedf2
+                0x080004d0                __ltdf2
+                0x080004d0                __ledf2
+                0x080004d8                __nedf2
+                0x080004d8                __eqdf2
+                0x080004d8                __cmpdf2
+                0x08000554                __aeabi_cdrcmple
+                0x08000564                __aeabi_cdcmpeq
+                0x08000564                __aeabi_cdcmple
+                0x08000574                __aeabi_dcmpeq
+                0x08000588                __aeabi_dcmplt
+                0x0800059c                __aeabi_dcmple
+                0x080005b0                __aeabi_dcmpge
+                0x080005c4                __aeabi_dcmpgt
+ .text          0x080005d8      0x21c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x080005d8                __aeabi_frsub
+                0x080005e0                __subsf3
+                0x080005e0                __aeabi_fsub
+                0x080005e4                __aeabi_fadd
+                0x080005e4                __addsf3
+                0x08000744                __aeabi_ui2f
+                0x08000744                __floatunsisf
+                0x0800074c                __aeabi_i2f
+                0x0800074c                __floatsisf
+                0x08000768                __aeabi_ul2f
+                0x08000768                __floatundisf
+                0x08000778                __aeabi_l2f
+                0x08000778                __floatdisf
+ .text          0x080007f4      0x2a0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x080007f4                __mulsf3
+                0x080007f4                __aeabi_fmul
+                0x0800095c                __aeabi_fdiv
+                0x0800095c                __divsf3
  *(.text*)
+ .text.MX_ADC1_Init
+                0x08000a94       0x58 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+                0x08000a94                MX_ADC1_Init
+ .text.HAL_ADC_MspInit
+                0x08000aec       0x60 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+                0x08000aec                HAL_ADC_MspInit
  .text.MX_GPIO_Init
-                0x0800014c       0x8c CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
-                0x0800014c                MX_GPIO_Init
- .text.Error_Handler
-                0x080001d8        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
-                0x080001d8                Error_Handler
- .text.SystemClock_Config
-                0x080001dc       0x64 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
-                0x080001dc                SystemClock_Config
- .text.main     0x08000240       0x70 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
-                0x08000240                main
- .text.HAL_MspInit
-                0x080002b0       0x44 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x080002b0                HAL_MspInit
- .text.NMI_Handler
-                0x080002f4        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002f4                NMI_Handler
- .text.HardFault_Handler
-                0x080002f6        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002f6                HardFault_Handler
- .text.MemManage_Handler
-                0x080002f8        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002f8                MemManage_Handler
- .text.BusFault_Handler
-                0x080002fa        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002fa                BusFault_Handler
- .text.UsageFault_Handler
-                0x080002fc        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002fc                UsageFault_Handler
- .text.SVC_Handler
-                0x080002fe        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080002fe                SVC_Handler
- .text.DebugMon_Handler
-                0x08000300        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000300                DebugMon_Handler
- .text.PendSV_Handler
-                0x08000302        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000302                PendSV_Handler
- .text.SysTick_Handler
-                0x08000304        0x8 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000304                SysTick_Handler
- .text.TIM2_IRQHandler
-                0x0800030c       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800030c                TIM2_IRQHandler
- .text.SystemInit
-                0x0800031c        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x0800031c                SystemInit
- *fill*         0x0800031e        0x2 
- .text.MX_TIM2_Init
-                0x08000320       0x70 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x08000320                MX_TIM2_Init
- .text.HAL_TIM_Base_MspInit
-                0x08000390       0x3a CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x08000390                HAL_TIM_Base_MspInit
- *fill*         0x080003ca        0x2 
- .text.HAL_TIM_PWM_MspInit
-                0x080003cc       0x2c CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x080003cc                HAL_TIM_PWM_MspInit
- .text.HAL_TIM_MspPostInit
-                0x080003f8       0x50 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x080003f8                HAL_TIM_MspPostInit
- .text.MX_TIM3_Init
-                0x08000448       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x08000448                MX_TIM3_Init
- .text.Reset_Handler
-                0x080004cc       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x080004cc                Reset_Handler
- .text.Default_Handler
-                0x08000514        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x08000514                RTC_Alarm_IRQHandler
-                0x08000514                EXTI2_IRQHandler
-                0x08000514                TIM1_CC_IRQHandler
-                0x08000514                PVD_IRQHandler
-                0x08000514                EXTI3_IRQHandler
-                0x08000514                EXTI0_IRQHandler
-                0x08000514                I2C2_EV_IRQHandler
-                0x08000514                ADC1_2_IRQHandler
-                0x08000514                SPI1_IRQHandler
-                0x08000514                TAMPER_IRQHandler
-                0x08000514                DMA1_Channel4_IRQHandler
-                0x08000514                USART3_IRQHandler
-                0x08000514                RTC_IRQHandler
-                0x08000514                DMA1_Channel7_IRQHandler
-                0x08000514                CAN1_RX1_IRQHandler
-                0x08000514                TIM4_IRQHandler
-                0x08000514                I2C1_EV_IRQHandler
-                0x08000514                DMA1_Channel6_IRQHandler
-                0x08000514                TIM3_IRQHandler
-                0x08000514                RCC_IRQHandler
-                0x08000514                TIM1_TRG_COM_IRQHandler
-                0x08000514                DMA1_Channel1_IRQHandler
-                0x08000514                Default_Handler
-                0x08000514                EXTI15_10_IRQHandler
-                0x08000514                EXTI9_5_IRQHandler
-                0x08000514                SPI2_IRQHandler
-                0x08000514                DMA1_Channel5_IRQHandler
-                0x08000514                EXTI4_IRQHandler
-                0x08000514                USB_LP_CAN1_RX0_IRQHandler
-                0x08000514                USB_HP_CAN1_TX_IRQHandler
-                0x08000514                DMA1_Channel3_IRQHandler
-                0x08000514                TIM1_UP_IRQHandler
-                0x08000514                WWDG_IRQHandler
-                0x08000514                TIM1_BRK_IRQHandler
-                0x08000514                EXTI1_IRQHandler
-                0x08000514                USART2_IRQHandler
-                0x08000514                I2C2_ER_IRQHandler
-                0x08000514                DMA1_Channel2_IRQHandler
-                0x08000514                CAN1_SCE_IRQHandler
-                0x08000514                FLASH_IRQHandler
-                0x08000514                USART1_IRQHandler
-                0x08000514                I2C1_ER_IRQHandler
-                0x08000514                USBWakeUp_IRQHandler
- *fill*         0x08000516        0x2 
- .text.HAL_InitTick
-                0x08000518       0x4c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000518                HAL_InitTick
- .text.HAL_Init
-                0x08000564       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000564                HAL_Init
- .text.HAL_IncTick
-                0x08000588       0x18 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000588                HAL_IncTick
- .text.HAL_GetTick
-                0x080005a0        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080005a0                HAL_GetTick
- .text.HAL_Delay
-                0x080005ac       0x28 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080005ac                HAL_Delay
- .text.HAL_NVIC_SetPriorityGrouping
-                0x080005d4       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080005d4                HAL_NVIC_SetPriorityGrouping
- .text.HAL_NVIC_SetPriority
-                0x080005f8       0x70 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080005f8                HAL_NVIC_SetPriority
- .text.HAL_NVIC_EnableIRQ
-                0x08000668       0x1c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000668                HAL_NVIC_EnableIRQ
- .text.HAL_SYSTICK_Config
-                0x08000684       0x28 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000684                HAL_SYSTICK_Config
- .text.HAL_GPIO_Init
-                0x080006ac      0x224 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080006ac                HAL_GPIO_Init
- .text.HAL_GPIO_WritePin
-                0x080008d0        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080008d0                HAL_GPIO_WritePin
- .text.RCC_Delay
-                0x080008dc       0x2c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .text.HAL_RCC_OscConfig
-                0x08000908      0x410 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000908                HAL_RCC_OscConfig
- .text.HAL_RCC_GetSysClockFreq
-                0x08000d18       0x54 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000d18                HAL_RCC_GetSysClockFreq
- .text.HAL_RCC_ClockConfig
-                0x08000d6c      0x16c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000d6c                HAL_RCC_ClockConfig
- .text.TIM_OC1_SetConfig
-                0x08000ed8       0x5c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.TIM_OC3_SetConfig
-                0x08000f34       0x64 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.TIM_OC4_SetConfig
-                0x08000f98       0x48 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.TIM_TI1_ConfigInputStage
-                0x08000fe0       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.TIM_TI2_ConfigInputStage
-                0x08001004       0x26 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .text.TIM_ITRx_SetConfig
-                0x0800102a       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- *fill*         0x0800103a        0x2 
- .text.HAL_TIM_Base_Start_IT
-                0x0800103c       0x68 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800103c                HAL_TIM_Base_Start_IT
+                0x08000b4c       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+                0x08000b4c                MX_GPIO_Init
+ .text.down     0x08000b7c       0x1c CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000b7c                down
+ .text.up       0x08000b98       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000b98                up
  .text.HAL_TIM_PeriodElapsedCallback
-                0x080010a4        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010a4                HAL_TIM_PeriodElapsedCallback
+                0x08000ba8       0x80 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000ba8                HAL_TIM_PeriodElapsedCallback
+ .text.Error_Handler
+                0x08000c28        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000c28                Error_Handler
+ .text.SystemClock_Config
+                0x08000c2c       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000c2c                SystemClock_Config
+ .text.main     0x08000cb0       0x80 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x08000cb0                main
+ .text.HAL_MspInit
+                0x08000d30       0x44 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08000d30                HAL_MspInit
+ .text.NMI_Handler
+                0x08000d74        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d74                NMI_Handler
+ .text.HardFault_Handler
+                0x08000d76        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d76                HardFault_Handler
+ .text.MemManage_Handler
+                0x08000d78        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d78                MemManage_Handler
+ .text.BusFault_Handler
+                0x08000d7a        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d7a                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08000d7c        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d7c                UsageFault_Handler
+ .text.SVC_Handler
+                0x08000d7e        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d7e                SVC_Handler
+ .text.DebugMon_Handler
+                0x08000d80        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d80                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08000d82        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d82                PendSV_Handler
+ .text.SysTick_Handler
+                0x08000d84        0x8 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d84                SysTick_Handler
+ .text.TIM2_IRQHandler
+                0x08000d8c       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000d8c                TIM2_IRQHandler
+ .text.SystemInit
+                0x08000d9c        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08000d9c                SystemInit
+ *fill*         0x08000d9e        0x2 
+ .text.MX_TIM2_Init
+                0x08000da0       0x70 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x08000da0                MX_TIM2_Init
+ .text.HAL_TIM_Base_MspInit
+                0x08000e10       0x3a CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x08000e10                HAL_TIM_Base_MspInit
+ *fill*         0x08000e4a        0x2 
+ .text.HAL_TIM_PWM_MspInit
+                0x08000e4c       0x2c CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x08000e4c                HAL_TIM_PWM_MspInit
+ .text.HAL_TIM_MspPostInit
+                0x08000e78       0x50 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x08000e78                HAL_TIM_MspPostInit
+ .text.MX_TIM3_Init
+                0x08000ec8       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x08000ec8                MX_TIM3_Init
+ .text.Reset_Handler
+                0x08000f4c       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x08000f4c                Reset_Handler
+ .text.Default_Handler
+                0x08000f94        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x08000f94                RTC_Alarm_IRQHandler
+                0x08000f94                EXTI2_IRQHandler
+                0x08000f94                TIM1_CC_IRQHandler
+                0x08000f94                PVD_IRQHandler
+                0x08000f94                EXTI3_IRQHandler
+                0x08000f94                EXTI0_IRQHandler
+                0x08000f94                I2C2_EV_IRQHandler
+                0x08000f94                ADC1_2_IRQHandler
+                0x08000f94                SPI1_IRQHandler
+                0x08000f94                TAMPER_IRQHandler
+                0x08000f94                DMA1_Channel4_IRQHandler
+                0x08000f94                USART3_IRQHandler
+                0x08000f94                RTC_IRQHandler
+                0x08000f94                DMA1_Channel7_IRQHandler
+                0x08000f94                CAN1_RX1_IRQHandler
+                0x08000f94                TIM4_IRQHandler
+                0x08000f94                I2C1_EV_IRQHandler
+                0x08000f94                DMA1_Channel6_IRQHandler
+                0x08000f94                TIM3_IRQHandler
+                0x08000f94                RCC_IRQHandler
+                0x08000f94                TIM1_TRG_COM_IRQHandler
+                0x08000f94                DMA1_Channel1_IRQHandler
+                0x08000f94                Default_Handler
+                0x08000f94                EXTI15_10_IRQHandler
+                0x08000f94                EXTI9_5_IRQHandler
+                0x08000f94                SPI2_IRQHandler
+                0x08000f94                DMA1_Channel5_IRQHandler
+                0x08000f94                EXTI4_IRQHandler
+                0x08000f94                USB_LP_CAN1_RX0_IRQHandler
+                0x08000f94                USB_HP_CAN1_TX_IRQHandler
+                0x08000f94                DMA1_Channel3_IRQHandler
+                0x08000f94                TIM1_UP_IRQHandler
+                0x08000f94                WWDG_IRQHandler
+                0x08000f94                TIM1_BRK_IRQHandler
+                0x08000f94                EXTI1_IRQHandler
+                0x08000f94                USART2_IRQHandler
+                0x08000f94                I2C2_ER_IRQHandler
+                0x08000f94                DMA1_Channel2_IRQHandler
+                0x08000f94                CAN1_SCE_IRQHandler
+                0x08000f94                FLASH_IRQHandler
+                0x08000f94                USART1_IRQHandler
+                0x08000f94                I2C1_ER_IRQHandler
+                0x08000f94                USBWakeUp_IRQHandler
+ *fill*         0x08000f96        0x2 
+ .text.HAL_InitTick
+                0x08000f98       0x4c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000f98                HAL_InitTick
+ .text.HAL_Init
+                0x08000fe4       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000fe4                HAL_Init
+ .text.HAL_IncTick
+                0x08001008       0x18 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001008                HAL_IncTick
+ .text.HAL_GetTick
+                0x08001020        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001020                HAL_GetTick
+ .text.HAL_ADC_PollForConversion
+                0x0800102c      0x184 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x0800102c                HAL_ADC_PollForConversion
+ .text.HAL_ADC_GetValue
+                0x080011b0        0x6 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080011b0                HAL_ADC_GetValue
+ *fill*         0x080011b6        0x2 
+ .text.HAL_ADC_ConfigChannel
+                0x080011b8      0x144 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080011b8                HAL_ADC_ConfigChannel
+ .text.ADC_Enable
+                0x080012fc       0x88 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080012fc                ADC_Enable
+ .text.HAL_ADC_Start
+                0x08001384       0xe8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08001384                HAL_ADC_Start
+ .text.ADC_ConversionStop_Disable
+                0x0800146c       0x56 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x0800146c                ADC_ConversionStop_Disable
+ *fill*         0x080014c2        0x2 
+ .text.HAL_ADC_Init
+                0x080014c4      0x108 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080014c4                HAL_ADC_Init
+ .text.HAL_ADC_Stop
+                0x080015cc       0x34 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080015cc                HAL_ADC_Stop
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x08001600       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001600                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x08001624       0x70 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001624                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x08001694       0x1c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001694                HAL_NVIC_EnableIRQ
+ .text.HAL_SYSTICK_Config
+                0x080016b0       0x28 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080016b0                HAL_SYSTICK_Config
+ .text.HAL_GPIO_Init
+                0x080016d8      0x224 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x080016d8                HAL_GPIO_Init
+ .text.RCC_Delay
+                0x080018fc       0x2c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .text.HAL_RCC_OscConfig
+                0x08001928      0x410 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001928                HAL_RCC_OscConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x08001d38       0x54 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001d38                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_ClockConfig
+                0x08001d8c      0x16c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001d8c                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetHCLKFreq
+                0x08001ef8        0xc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001ef8                HAL_RCC_GetHCLKFreq
+ .text.HAL_RCC_GetPCLK2Freq
+                0x08001f04       0x20 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001f04                HAL_RCC_GetPCLK2Freq
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x08001f24      0x118 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x08001f24                HAL_RCCEx_PeriphCLKConfig
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x0800203c       0xd8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x0800203c                HAL_RCCEx_GetPeriphCLKFreq
+ .text.TIM_OC1_SetConfig
+                0x08002114       0x5c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.TIM_OC3_SetConfig
+                0x08002170       0x64 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.TIM_OC4_SetConfig
+                0x080021d4       0x48 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.TIM_TI1_ConfigInputStage
+                0x0800221c       0x24 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.TIM_TI2_ConfigInputStage
+                0x08002240       0x26 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .text.TIM_ITRx_SetConfig
+                0x08002266       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ *fill*         0x08002276        0x2 
+ .text.HAL_TIM_Base_Start_IT
+                0x08002278       0x68 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08002278                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x080010a6        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010a6                HAL_TIM_OC_DelayElapsedCallback
+                0x080022e0        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080022e0                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x080010a8        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010a8                HAL_TIM_IC_CaptureCallback
+                0x080022e2        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080022e2                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x080010aa        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010aa                HAL_TIM_PWM_PulseFinishedCallback
+                0x080022e4        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080022e4                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x080010ac        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010ac                HAL_TIM_TriggerCallback
+                0x080022e6        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080022e6                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x080010ae      0x15e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080010ae                HAL_TIM_IRQHandler
+                0x080022e8      0x15e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080022e8                HAL_TIM_IRQHandler
+ *fill*         0x08002446        0x2 
  .text.TIM_Base_SetConfig
-                0x0800120c       0x84 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800120c                TIM_Base_SetConfig
+                0x08002448       0x84 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08002448                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x08001290       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001290                HAL_TIM_Base_Init
+                0x080024cc       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080024cc                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x080012e8       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080012e8                HAL_TIM_PWM_Init
+                0x08002524       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08002524                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x08001340       0x64 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001340                TIM_OC2_SetConfig
+                0x0800257c       0x64 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0800257c                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x080013a4       0xdc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080013a4                HAL_TIM_PWM_ConfigChannel
+                0x080025e0       0xdc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080025e0                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x08001480       0x18 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001480                TIM_ETR_SetConfig
+                0x080026bc       0x18 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080026bc                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x08001498       0xfe CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001498                HAL_TIM_ConfigClockSource
+                0x080026d4       0xfe CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080026d4                HAL_TIM_ConfigClockSource
  .text.TIM_CCxChannelCmd
-                0x08001596       0x1e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001596                TIM_CCxChannelCmd
+                0x080027d2       0x1e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080027d2                TIM_CCxChannelCmd
  .text.HAL_TIM_PWM_Start
-                0x080015b4       0xdc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x080015b4                HAL_TIM_PWM_Start
+                0x080027f0       0xdc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080027f0                HAL_TIM_PWM_Start
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08001690       0x6c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08001690                HAL_TIMEx_MasterConfigSynchronization
+                0x080028cc       0x6c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x080028cc                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x080016fc        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x080016fc                HAL_TIMEx_CommutCallback
+                0x08002938        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08002938                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x080016fe        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x080016fe                HAL_TIMEx_BreakCallback
+                0x0800293a        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0800293a                HAL_TIMEx_BreakCallback
  .text.__libc_init_array
-                0x08001700       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x08001700                __libc_init_array
- .text.memset   0x08001748       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
-                0x08001748                memset
+                0x0800293c       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x0800293c                __libc_init_array
+ .text.memset   0x08002984       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x08002984                memset
  .text.startup.register_fini
-                0x080017ec       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08001800        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
-                0x08001800                atexit
+                0x08002a28       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08002a3c        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x08002a3c                atexit
  .text.__libc_fini_array
-                0x0800180c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
-                0x0800180c                __libc_fini_array
+                0x08002a48       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x08002a48                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08001838        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08001838                __retarget_lock_acquire_recursive
+                0x08002a74        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x08002a74                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800183c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x0800183c                __retarget_lock_release_recursive
+                0x08002a78        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x08002a78                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08001840       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08001840                __register_exitproc
+                0x08002a7c       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08002a7c                __register_exitproc
  *(.glue_7)
- .glue_7        0x080018cc        0x0 linker stubs
+ .glue_7        0x08002b08        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080018cc        0x0 linker stubs
+ .glue_7t       0x08002b08        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080018cc        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08002b08        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x080018cc        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080018cc                _init
- .init          0x080018d0        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08002b08        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08002b08                _init
+ .init          0x08002b0c        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x080018d8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080018d8                _fini
- .fini          0x080018dc        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x080018e4                . = ALIGN (0x4)
-                0x080018e4                _etext = .
+ .fini          0x08002b14        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08002b14                _fini
+ .fini          0x08002b18        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x08002b20                . = ALIGN (0x4)
+                0x08002b20                _etext = .
 
-.vfp11_veneer   0x080018e4        0x0
- .vfp11_veneer  0x080018e4        0x0 linker stubs
+.vfp11_veneer   0x08002b20        0x0
+ .vfp11_veneer  0x08002b20        0x0 linker stubs
 
-.v4_bx          0x080018e4        0x0
- .v4_bx         0x080018e4        0x0 linker stubs
+.v4_bx          0x08002b20        0x0
+ .v4_bx         0x08002b20        0x0 linker stubs
 
-.iplt           0x080018e4        0x0
- .iplt          0x080018e4        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08002b20        0x0
+ .iplt          0x08002b20        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x080018e4       0x28
-                0x080018e4                . = ALIGN (0x4)
+.rodata         0x08002b20       0x44
+                0x08002b20                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x080018e4       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x080018e4                AHBPrescTable
+                0x08002b20       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08002b20                AHBPrescTable
+ .rodata.APBPrescTable
+                0x08002b30        0x8 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08002b30                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x080018f4       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002b38       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08001904        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08001906        0x2 
+                0x08002b48        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08002b4a        0x2 
+ .rodata.aPLLMULFactorTable.1
+                0x08002b4c       0x10 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .rodata.aPredivFactorTable.0
+                0x08002b5c        0x2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ *fill*         0x08002b5e        0x2 
  .rodata._global_impure_ptr
-                0x08001908        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x08001908                _global_impure_ptr
-                0x0800190c                . = ALIGN (0x4)
+                0x08002b60        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x08002b60                _global_impure_ptr
+                0x08002b64                . = ALIGN (0x4)
 
-.rel.dyn        0x0800190c        0x0
- .rel.iplt      0x0800190c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002b64        0x0
+ .rel.iplt      0x08002b64        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800190c        0x0
-                0x0800190c                __exidx_start = .
+.ARM            0x08002b64        0x0
+                0x08002b64                __exidx_start = .
  *(.ARM.exidx*)
-                0x0800190c                __exidx_end = .
+                0x08002b64                __exidx_end = .
 
-.preinit_array  0x0800190c        0x0
-                0x0800190c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002b64        0x0
+                0x08002b64                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800190c                PROVIDE (__preinit_array_end = .)
+                0x08002b64                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0800190c        0x8
-                0x0800190c                PROVIDE (__init_array_start = .)
+.init_array     0x08002b64        0x8
+                0x08002b64                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0800190c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08002b64        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08001910        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08001914                PROVIDE (__init_array_end = .)
+ .init_array    0x08002b68        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002b6c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x08001914        0x4
-                0x08001914                PROVIDE (__fini_array_start = .)
+.fini_array     0x08002b6c        0x4
+                0x08002b6c                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08001914        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08001918                PROVIDE (__fini_array_end = .)
-                0x08001918                _sidata = LOADADDR (.data)
+ .fini_array    0x08002b6c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002b70                PROVIDE (__fini_array_end = .)
+                0x08002b70                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08001918
+.data           0x20000000      0x43c load address 0x08002b70
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1261,45 +1453,53 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x08001d54
+.igot.plt       0x2000043c        0x0 load address 0x08002fac
  .igot.plt      0x2000043c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x2000043c       0xb8 load address 0x08001d54
+.bss            0x2000043c       0xf0 load address 0x08002fac
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
  .bss           0x2000043c       0x1c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
- .bss.pwmVal    0x20000458        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
-                0x20000458                pwmVal
- *fill*         0x2000045a        0x2 
- .bss.htim2     0x2000045c       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x2000045c                htim2
- .bss.htim3     0x200004a4       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
-                0x200004a4                htim3
- .bss.uwTick    0x200004ec        0x4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x200004ec                uwTick
+ .bss.hadc1     0x20000458       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+                0x20000458                hadc1
+ .bss.adc_value
+                0x20000488        0x2 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x20000488                adc_value
+ *fill*         0x2000048a        0x2 
+ .bss.down_count
+                0x2000048c        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x2000048c                down_count
+ .bss.voltage   0x20000490        0x4 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x20000490                voltage
+ .bss.htim2     0x20000494       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x20000494                htim2
+ .bss.htim3     0x200004dc       0x48 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x200004dc                htim3
+ .bss.uwTick    0x20000524        0x4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000524                uwTick
  .bss.__lock___atexit_recursive_mutex
-                0x200004f0        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x200004f0                __lock___atexit_recursive_mutex
+                0x20000528        0x1 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x20000528                __lock___atexit_recursive_mutex
  *(COMMON)
-                0x200004f4                . = ALIGN (0x4)
- *fill*         0x200004f1        0x3 
-                0x200004f4                _ebss = .
-                0x200004f4                __bss_end__ = _ebss
+                0x2000052c                . = ALIGN (0x4)
+ *fill*         0x20000529        0x3 
+                0x2000052c                _ebss = .
+                0x2000052c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200004f4      0x604 load address 0x08001d54
-                0x200004f8                . = ALIGN (0x8)
- *fill*         0x200004f4        0x4 
+                0x2000052c      0x604 load address 0x08002fac
+                0x20000530                . = ALIGN (0x8)
+ *fill*         0x2000052c        0x4 
                 [!provide]                PROVIDE (end = .)
-                0x200004f8                PROVIDE (_end = .)
-                0x200006f8                . = (. + _Min_Heap_Size)
- *fill*         0x200004f8      0x200 
-                0x20000af8                . = (. + _Min_Stack_Size)
- *fill*         0x200006f8      0x400 
-                0x20000af8                . = ALIGN (0x8)
+                0x20000530                PROVIDE (_end = .)
+                0x20000730                . = (. + _Min_Heap_Size)
+ *fill*         0x20000530      0x200 
+                0x20000b30                . = (. + _Min_Stack_Size)
+ *fill*         0x20000730      0x400 
+                0x20000b30                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1318,209 +1518,261 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .ARM.attributes
                 0x0000001d       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004a       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+                0x0000004a       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
  .ARM.attributes
-                0x00000077       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                0x00000077       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
  .ARM.attributes
-                0x000000a4       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x000000a4       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x000000d1       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x000000d1       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .ARM.attributes
-                0x000000fe       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000000fe       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .ARM.attributes
-                0x0000012b       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+                0x0000012b       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .ARM.attributes
-                0x00000158       0x21 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x00000158       0x2d CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
  .ARM.attributes
-                0x00000179       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000185       0x21 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
  .ARM.attributes
-                0x000001a6       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000001a6       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .ARM.attributes
-                0x000001d3       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x000001d3       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
  .ARM.attributes
-                0x00000200       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000200       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x0000022d       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0000022d       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x0000025a       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x0000025a       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x00000287       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x00000287       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x000002b4       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x000002b4       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .ARM.attributes
-                0x000002e1       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x000002e1       0x2d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x0000030e       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0000030e       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000033b       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x0000032b       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000368       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x00000348       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000395       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x00000365       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x000003c2       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x00000382       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x000003ef       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x000003af       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003dc       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000409       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000436       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000463       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000490       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x000004bd       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000004ea       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .comment       0x00000000       0x49 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
                                  0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_info     0x00000000     0xa458
- .debug_info    0x00000000      0x313 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x00000313      0xa3f CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000d52      0x211 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00000f63      0x6ff CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00001662      0x248 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x000018aa      0xd79 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_info    0x00002623       0x22 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_info    0x00002645      0x7a8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00002ded      0xd8a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00003b77      0x66f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x000041e6      0xa3b CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00004c21     0x3d7c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x0000899d     0x1abb CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_info     0x00000000     0xc26c
+ .debug_info    0x00000000      0x860 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_info    0x00000860      0x17c CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000009dc      0xe02 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x000017de      0x211 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x000019ef      0x6ff CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x000020ee      0x248 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00002336      0xd79 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_info    0x000030af       0x22 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_info    0x000030d1      0x7a8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00003879      0xf3f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_info    0x000047b8      0xd8a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00005542      0x66f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00005bb1      0xa3b CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000065ec      0x449 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_info    0x00006a35     0x3d7c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x0000a7b1     0x1abb CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_abbrev   0x00000000     0x1768
- .debug_abbrev  0x00000000      0x13c CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x0000013c      0x253 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000038f       0xe5 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00000474      0x179 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x000005ed      0x13e CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x0000072b      0x209 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x00000934       0x12 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_abbrev  0x00000946      0x1f4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00000b3a      0x341 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000e7b      0x1e6 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00001061      0x27a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000012db      0x245 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_abbrev  0x00001520      0x248 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_abbrev   0x00000000     0x1cd3
+ .debug_abbrev  0x00000000      0x1c1 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_abbrev  0x000001c1       0xbf CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00000280      0x2ac CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000052c       0xe5 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00000611      0x179 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x0000078a      0x13e CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x000008c8      0x209 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x00000ad1       0x12 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_abbrev  0x00000ae3      0x1f4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000cd7      0x1fc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_abbrev  0x00000ed3      0x341 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001214      0x1e6 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x000013fa      0x27a CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001674      0x1d2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00001846      0x245 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_abbrev  0x00001a8b      0x248 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_aranges  0x00000000      0x918
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_aranges
-                0x00000020       0x40 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_aranges
-                0x00000060       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_aranges
-                0x00000080       0x68 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_aranges
-                0x000000e8       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_aranges
-                0x00000110       0x50 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_aranges
-                0x00000160       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_aranges
-                0x00000188       0xe0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_aranges
-                0x00000268       0x90 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_aranges
-                0x000002f8       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_aranges
-                0x00000350       0x90 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_aranges
-                0x000003e0      0x3d0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_aranges
-                0x000007b0      0x168 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_loc      0x00000000     0x926f
+ .debug_loc     0x00000000       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_loc     0x00000084       0x42 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x000000c6       0x15 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_loc     0x000000db       0xff CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_loc     0x000001da       0xa9 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_loc     0x00000283      0x141 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_loc     0x000003c4      0xb03 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_loc     0x00000ec7      0x71f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_loc     0x000015e6      0x47d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x00001a63      0x618 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x0000207b      0x43d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_loc     0x000024b8     0x5124 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_loc     0x000075dc     0x1c93 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_ranges   0x00000000      0x8d0
- .debug_ranges  0x00000000       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_ranges  0x00000010       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000040       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x00000050       0x58 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x000000a8       0x18 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x000000c0       0x40 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_ranges  0x00000100       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_ranges  0x00000120       0xd0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x000001f0       0xe0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x000002d0       0x48 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x00000318       0xa0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x000003b8      0x3c0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_ranges  0x00000778      0x158 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_aranges  0x00000000      0xa78
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_aranges
+                0x00000030       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_aranges
+                0x00000050       0x50 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_aranges
+                0x000000a0       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_aranges
+                0x000000c0       0x68 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_aranges
+                0x00000128       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_aranges
+                0x00000150       0x50 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_aranges
+                0x000001a0       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_aranges
+                0x000001c8       0xe0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_aranges
+                0x000002a8       0xf0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_aranges
+                0x00000398       0x90 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_aranges
+                0x00000428       0x58 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_aranges
+                0x00000480       0x90 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_aranges
+                0x00000510       0x30 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_aranges
+                0x00000540      0x3d0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_aranges
+                0x00000910      0x168 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_line     0x00000000     0x97e7
- .debug_line    0x00000000      0x232 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00000232      0x48b CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000006bd      0x196 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00000853      0x334 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x00000b87      0x260 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00000de7      0x4dc CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_line    0x000012c3       0xb0 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_line    0x00001373      0x5a2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00001915      0x680 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00001f95      0x628 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x000025bd      0xc65 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00003222     0x49b3 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_line    0x00007bd5     0x1c12 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_ranges   0x00000000      0xa18
+ .debug_ranges  0x00000000       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_ranges  0x00000020       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_ranges  0x00000030       0x40 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000070       0x10 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x00000080       0x58 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x000000d8       0x18 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x000000f0       0x40 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_ranges  0x00000130       0x20 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_ranges  0x00000150       0xd0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x00000220       0xe0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_ranges  0x00000300       0xe0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x000003e0       0x48 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x00000428       0xa0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x000004c8       0x38 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x00000500      0x3c0 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_ranges  0x000008c0      0x158 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
-.debug_str      0x00000000     0x2eb9
- .debug_str     0x00000000      0x284 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
-                                0x2cf (size before relaxing)
- .debug_str     0x00000284      0x6c5 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
-                                0x911 (size before relaxing)
- .debug_str     0x00000949       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+.debug_line     0x00000000     0xaf74
+ .debug_line    0x00000000      0x373 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_line    0x00000373      0x183 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x000004f6      0x546 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000a3c      0x196 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00000bd2      0x334 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00000f06      0x260 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00001166      0x4dc CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_line    0x00001642       0xb0 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_line    0x000016f2      0x5a2 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00001c94      0xf34 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_line    0x00002bc8      0x680 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00003248      0x628 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00003870      0xc65 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x000044d5      0x4da CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_line    0x000049af     0x49b3 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_line    0x00009362     0x1c12 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+
+.debug_str      0x00000000     0x357a
+ .debug_str     0x00000000      0x5e6 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+                                0x671 (size before relaxing)
+ .debug_str     0x000005e6       0x4a CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+                                0x237 (size before relaxing)
+ .debug_str     0x00000630      0x621 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+                                0xb76 (size before relaxing)
+ .debug_str     0x00000c51       0x84 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x271 (size before relaxing)
- .debug_str     0x000009cd      0x104 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00000cd5      0x104 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                 0x765 (size before relaxing)
- .debug_str     0x00000ad1       0xb2 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00000dd9       0xb2 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x2a6 (size before relaxing)
- .debug_str     0x00000b83      0x55d CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_str     0x00000e8b      0x55d CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
                                 0xcc9 (size before relaxing)
- .debug_str     0x000010e0       0x60 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_str     0x000013e8       0x60 CMakeFiles/ChromeDino.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
                                  0x9f (size before relaxing)
- .debug_str     0x00001140      0x32e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00001448      0x32e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x876 (size before relaxing)
- .debug_str     0x0000146e      0x3c8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00001776      0x32b CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                                0x92c (size before relaxing)
+ .debug_str     0x00001aa1      0x3c8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0x925 (size before relaxing)
- .debug_str     0x00001836      0x141 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00001e69      0x172 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x452 (size before relaxing)
- .debug_str     0x00001977      0x21e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00001fdb      0x20f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x67d (size before relaxing)
- .debug_str     0x00001b95      0xdd6 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x000021ea       0xae CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                                0x425 (size before relaxing)
+ .debug_str     0x00002298      0xd94 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                                0x16a1 (size before relaxing)
- .debug_str     0x0000296b      0x54e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0000302c      0x54e CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                                 0xe92 (size before relaxing)
 
-.debug_frame    0x00000000     0x18f8
- .debug_frame   0x00000000       0x34 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00000034       0x80 CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x000000b4       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x000000dc       0xc0 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x0000019c       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x000001cc       0xcc CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_frame   0x00000298      0x1cc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00000464      0x118 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x0000057c       0xe4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000660      0x184 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x000007e4      0xb1c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_frame   0x00001300      0x40c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_frame   0x0000170c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00001738       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00001764       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x000017c0       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x000017e0       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00001814       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x000018c4       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-
-.debug_loc      0x00000000     0x8269
- .debug_loc     0x00000000       0x15 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_loc     0x00000015       0xff CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_loc     0x00000114       0xa9 CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
- .debug_loc     0x000001bd      0x141 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_loc     0x000002fe      0x71f CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x00000a1d      0x47d CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00000e9a      0x618 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_loc     0x000014b2     0x5124 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_loc     0x000065d6     0x1c93 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+.debug_frame    0x00000000     0x1e98
+ .debug_frame   0x00000000       0x68 CMakeFiles/ChromeDino.elf.dir/Core/Src/adc.c.obj
+ .debug_frame   0x00000068       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x00000090       0xac CMakeFiles/ChromeDino.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x0000013c       0x28 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00000164       0xc0 CMakeFiles/ChromeDino.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00000224       0x30 CMakeFiles/ChromeDino.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x00000254       0xcc CMakeFiles/ChromeDino.elf.dir/Core/Src/tim.c.obj
+ .debug_frame   0x00000320      0x1cc CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x000004ec      0x2c8 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_frame   0x000007b4      0x118 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x000008cc       0xe4 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x000009b0      0x184 CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00000b34       0x5c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00000b90      0xb1c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_frame   0x000016ac      0x40c CMakeFiles/ChromeDino.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_frame   0x00001ab8       0xac c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00001b64       0xc4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00001c28       0x4c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00001c74       0x38 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00001cac       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00001cd8       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00001d04       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001d60       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00001d80       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00001db4       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00001e64       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
