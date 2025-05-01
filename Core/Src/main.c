@@ -55,7 +55,11 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void pwm_debug();
+void running();
+uint16_t pwmVal = 0;
+int is_up = 1;
+int count = 0;
 /* USER CODE END 0 */
 
 /**
@@ -88,9 +92,10 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM3_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  uint16_t pwmVal = 0;
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -100,8 +105,16 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    pwmVal = 1000;
-    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pwmVal);
+    while (pwmVal < 250) {
+      pwmVal += 1;
+      __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pwmVal);
+      HAL_Delay(2);
+    }
+    while (pwmVal > 50) {
+      pwmVal -= 1;
+      __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pwmVal);
+      HAL_Delay(2);
+    }
   }
   /* USER CODE END 3 */
 }
@@ -146,7 +159,35 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void running() {
+  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+}
 
+void pwm_debug() {
+  if (is_up == 1) {
+    pwmVal += 40;
+    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pwmVal);
+  } else if (is_up == 0) {
+    pwmVal -= 40;
+    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pwmVal);
+  }
+
+  if (pwmVal >= 250) {
+    is_up = 0;
+  } else if (pwmVal <= 50) {
+    is_up = 1;
+  }
+}
+
+// void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+//   if (htim->Instance == TIM2) {
+//     if (count >= 1) {
+//       pwm_debug();
+//       count = 0;
+//     } else count ++;
+//     running();
+//   }
+// }
 /* USER CODE END 4 */
 
 /**
